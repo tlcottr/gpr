@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 
 const Symbol = () => {
   return (
@@ -18,21 +18,44 @@ const Symbol = () => {
   );
 };
 
+const Info = () => {
+  return (
+    <svg
+      width="40"
+      height="40"
+      viewBox="0 0 684 684"
+      fill="#ffffff"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M342 342.003V475.337M642 342C642 507.685 507.685 642 342 642C176.315 642 42 507.685 42 342C42 176.315 176.315 42 342 42C507.685 42 642 176.315 642 342ZM342 208.67H342.333V209.003H342V208.67Z"
+        stroke="#292929"
+        stroke-width="83.3333"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
 const Footer = () => {
   return (
-    <div className="text-white text-sm fixed bottom-0 p-7 flex flex-row items-end justify-between w-full">
-      <div className="font-mono lowercase flex-col">
+    <div className="text-white text-sm fixed bottom-0 p-7 flex flex-col md:flex-row items-end justify-between w-full">
+      <div className="font-mono lowercase flex-col w-full">
         <span>greenpoint runners</span>
         <br></br>
-        <span className="opacity-50">community runs saturday, 9am</span>
+        <span className="opacity-50">community runs saturday @ 9am</span>
       </div>
-      <div className="font-mono lowercase text-right text-[#3C8323]">
+      <hr className="my-3 md:hidden border-b-[.5px] border-solid border-white border-opacity-50 w-full"></hr>
+      <div className="font-mono lowercase text-left md:text-right text-[#3C8323] w-full flex flex-row md:flex-col md:justify-center justify-between md:items-end items-center">
         <a href="https://www.instagram.com/greenpointrunners/" noReferrer>
           @greenpointrunners
         </a>
-        <br></br>
+        <span className="md:hidden">
+          <br></br>
+        </span>
         <div className="text-white flex flex-row items-center">
-          <p className="opacity-50 text-right">powered by</p>
+          <p className="opacity-50 text-left">powered by</p>
           <Symbol />
         </div>
       </div>
