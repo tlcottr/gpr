@@ -26,12 +26,12 @@ export default function Home() {
         <meta property="og:image:height" content="630" />
         <meta
           property="og:image"
-          content="https://github.com/tlcottr/portfolio/blob/1516a5532ac647e7d2556c2afbaefd7c493af2bd/img/GPR_ShareImage.jpg"
+          content="https://raw.githubusercontent.com/tlcottr/portfolio/blob/1516a5532ac647e7d2556c2afbaefd7c493af2bd/img/GPR_ShareImage.jpg"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://github.com/tlcottr/portfolio/blob/1516a5532ac647e7d2556c2afbaefd7c493af2bd/img/GPR_ShareImage.jpg"
+          content="https://raw.githubusercontent.com/tlcottr/portfolio/blob/1516a5532ac647e7d2556c2afbaefd7c493af2bd/img/GPR_ShareImage.jpg"
         />
         <meta property="twitter:title" content="Greenpoint Runners" />
         <meta
@@ -40,7 +40,7 @@ export default function Home() {
         />
         <meta
           property="twitter:image"
-          content="https://github.com/tlcottr/portfolio/blob/1516a5532ac647e7d2556c2afbaefd7c493af2bd/img/GPR_ShareImage.jpg"
+          content="https://raw.githubusercontent.com/tlcottr/portfolio/blob/1516a5532ac647e7d2556c2afbaefd7c493af2bd/img/GPR_ShareImage.jpg"
         />
         <meta name="twitter:image:width" content="1200" />
         <meta name="twitter:image:height" content="630" />
