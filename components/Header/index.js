@@ -20,9 +20,9 @@ const Wordmark = () => {
 
 const Header = () => {
   return (
-    <div className="text-white text-sm fixed top-0 p-7 flex flex-row items-center justify-between w-full">
+    <div className="text-white text-sm fixed top-0 p-7 flex flex-row items-center justify-between w-full z-5">
       <Wordmark />
-      <div className="font-mono lowercase">No thru traffic</div>
+      <div className="font-mono lowercase text-right">No thru traffic</div>
     </div>
   );
 };
