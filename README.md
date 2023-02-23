@@ -2,7 +2,7 @@
 
 # GREENPOINT RUNNERS
 
-The GPR landing page is the front-end of the Greenpoint Runners digital presence hosted at [greenpointrunners.com](https://greenpointrunners.com). Built bu BanditLabs.
+The GPR landing page is the front-end of the Greenpoint Runners digital presence hosted at [greenpointrunners.com](https://greenpointrunners.com) – Built buy **BanditLabs**. 
 
 ## Quickstart
 
