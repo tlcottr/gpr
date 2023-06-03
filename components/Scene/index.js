@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import Model from "/components/Model";
 import { OrbitControls, Environment } from "@react-three/drei";
+import Model from "/components/Model";
 
 const Scene = () => {
   return (
@@ -12,13 +12,17 @@ const Scene = () => {
         height: "100vh",
       }}
     >
-      <pointLight position={[0, 20, 10]} intensity={.1} />
-      <ambientLight intensity={.2} />
-      <ambientLight intensity={.1} />
-      <directionalLight intensity={.1} />
+      <pointLight position={[0, 20, 10]} intensity={0.1} />
+      <ambientLight intensity={0.2} />
+      <ambientLight intensity={0.1} />
+      <directionalLight intensity={0.1} />
       <Suspense fallback={null}>
         <Model position={[0, 0, 0]} />
-        <Environment preset="city" background={false}/>
+        <Environment
+          background={false}
+          files="../images/envmap.hdr"
+          preset={null}
+        />
       </Suspense>
       <OrbitControls
         enableZoom={false}
