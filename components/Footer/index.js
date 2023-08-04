@@ -47,6 +47,14 @@ const Footer = () => {
         <span className="opacity-50">community runs saturday @ 9:30am</span>
       </div>
       <hr className="my-3 md:hidden border-b-[.5px] border-solid border-white border-opacity-50 w-full"></hr>
+      <form className="w-full border border-gray-300 focus:border-green-400 rounded-3xl">
+        <input
+          className="w-full bg-black rounded-3xl focus:border-green-400 px-4 py-2 font-mono text-xs"
+          id="email"
+          type="text"
+          placeholder="e-mail address"
+        ></input>
+      </form>
       <div className="font-mono lowercase text-left md:text-right text-[#3C8323] w-full flex flex-row md:flex-col md:justify-center justify-between md:items-end items-center">
         <a href="https://www.instagram.com/greenpointrunners/" noReferrer>
           @greenpointrunners
